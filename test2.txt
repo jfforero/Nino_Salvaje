@@ -1,0 +1,22 @@
+
+
+Soy_el_nino_salvaje 0 24000;
+Inocente_Libre_Silvestre 0 24000;
+Tengo_todas_las_edades 0 10000;
+Mis_abuelos_viven_en_mi 0 0 0 0 0;
+
+Soy_hermano_de_las_nubes 0 10000 0 10000;
+Y_solo_se_compartir 0 22000;
+Se_que_todo_es_de_todos 0 20000;
+Y_todo_esta_vivo_en_mi 0 32000;
+
+Mi_corazon_es_una_estrella 0 7000;
+Soy_hijo_de_la_tierra 0 9000; 
+Viajo_abordo_de_mi_espiritu 0 3;
+Camino_a_la_eternidad 1;
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+
+Soy_el_nino_salvaje 0.8 20000;
+#//0-1 percusion_pd; 
+
+LAm 0; 
+ 
+Inocente_Libre_Silvestre 0 20000;
+#//0-1 armonia1 ;
+
+Tengo_todas_las_edades 0 60000; 
+#// 10-1000 effecto armonia1; 
+
+   
+Mis_abuelos_viven_en_mi 0 0 0 0 0;
+#// 10-1000;
+
+Soy_hermano_de_las_nubes 0 10000 0 100000;
+#// 0-127 sinte_live1;
+
+Y_solo_se_compartir 0  30000;
+#// 0-1 sinte_pd3; 
+
+Se_que_todo_es_de_todos 0 100000;
+#// 0-127 sinte_live5;
+
+Y_todo_esta_vivo_en_mi 80 0;
+#// 0-127 sinte_live6_bateria1;
+
+Mi_corazon_es_una_estrella 0 1000;
+#// 0-1 sinte_pd6_;
+
+Soy_hijo_de_la_tierra 0 10000;
+#// 0-1 sinte_pd2_;
+
+Viajo_abordo_de_mi_espiritu 0 3;
+#// 0 random_ventanan_;
+
+Camino_a_la_eternidad 1;
+#// 0-127 sinte_pd2_;
+
+acorde 0;
+mostrar 0; 
+
+Alberto Kuselman;
+Niño Salvaje;
+
+
+ ____________________________________________
+< Para que nos vieran, nos tapamos el rostro >
+ --------------------------------------------
+         \
+          \ ^__^
+            (oo)\_______
+         (  (__)\       )\/\
+          _) /  ||----w |
+         (.)/   ||     ||
+          `'
