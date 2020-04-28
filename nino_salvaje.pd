@@ -1,4 +1,4 @@
-#N canvas 872 108 549 944 10;
+#N canvas 396 106 549 944 10;
 #X declare -lib Gem;
 #X obj 39 679 dac~;
 #N canvas 570 44 856 759 mixer_8_chan 0;
@@ -126,7 +126,7 @@
 -1 -1 1000 1;
 #X obj 298 34 inlet~;
 #X obj 226 117 vsl 15 64 0 1 0 1 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 5670 1;
 #X obj 326 420 *;
 #X obj 322 400 t f f;
 #X obj 312 445 *~;
@@ -2976,7 +2976,7 @@
 #X obj 427 209 *;
 #X obj 427 257 * 10000;
 #X obj 428 235 *;
-#X msg 81 373 0;
+#X msg 81 373 0.992188;
 #X obj 26 200 t f f;
 #X msg 99 350 set \$1;
 #X obj 125 243 +;
@@ -4648,7 +4648,7 @@
 #X obj 287 122 * 60;
 #X obj 102 29 clip 0 1;
 #X obj 102 51 * 60;
-#X msg 81 373 0;
+#X msg 81 373 1;
 #X obj 26 200 t f f;
 #X msg 99 350 set \$1;
 #X obj 125 243 +;
@@ -5240,7 +5240,7 @@
 #X obj 287 122 * 60;
 #X obj 102 29 clip 0 1;
 #X obj 102 51 * 60;
-#X msg 81 373 0;
+#X msg 81 373 1;
 #X obj 26 200 t f f;
 #X msg 99 350 set \$1;
 #X obj 125 243 +;
@@ -7362,7 +7362,7 @@
 #X connect 22 0 12 0;
 #X connect 22 0 7 1;
 #X restore 248 550 pd trk_param;
-#X obj 283 140 cnv 3 3 300 empty \$0llgt empty 20 12 0 14 -228856 -66577
+#X obj 123 140 cnv 3 3 300 empty \$0llgt empty 20 12 0 14 -228856 -66577
 0;
 #X obj 789 1034 s \$0llgt;
 #X obj 790 965 * 20;
@@ -13112,14 +13112,14 @@
 #X connect 29 0 28 0;
 #X coords 0 -1 1 1 85 50 1 100 100;
 #X restore 193 -209 pd Azar_Nota;
-#N canvas 1586 317 243 86 Lector_de_texto 0;
+#N canvas 1586 317 243 201 Lector_de_texto 1;
 #X obj 60 77 qlist;
 #X obj 107 -57 loadbang;
 #X msg 85 39 tempo 1 \, bang;
 #X obj 86 13 del 10;
 #X obj 15 -82 key;
 #X obj 16 -56 select 32;
-#X msg 25 -20 read test2.txt;
+#X msg 25 -20 read texto.txt;
 #X connect 1 0 6 0;
 #X connect 1 0 3 0;
 #X connect 2 0 0 0;
@@ -13428,7 +13428,7 @@
 #X msg 25 245 inputval1 \$1;
 #X msg 192 250 inputval2 \$1;
 #X obj 26 137 vsl 15 96 -10 15 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3990 1;
+-1 -1 4026 1;
 #X obj 177 127 vsl 15 96 0 1000 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 42 1;
 #X floatatom 199 202 5 0 0 0 - - -;
@@ -13452,7 +13452,7 @@
 -1 -1 5687 1;
 #X floatatom 910 238 5 0 0 0 - - -;
 #X obj 1019 134 vsl 15 96 -5 5 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 4750 1;
+-1 -1 4770 1;
 #X floatatom 1060 222 5 0 0 0 - - -;
 #X obj 1174 121 vsl 15 96 -5 5 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 4847 1;
@@ -13565,14 +13565,14 @@ inputv4 8.75 \; inputv5 0.162 \; inputv6 3.12 \; inputv7 -0.16 \; inputv8
 #X obj 495 -301 select 1;
 #X obj 496 -356 >= 500;
 #X obj 37 -410 unpack f f;
-#X obj 39 -359 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 39 -359 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 35 -335 select 1;
 #X obj 40 -380 <= 0.01;
 #X obj 179 -309 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 184 -356 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
-0 1;
+1 1;
 #X obj 180 -332 select 1;
 #X obj 185 -377 >= 0.01;
 #X msg 35 -269 pd \; inputv1 0.421 \; inputv2 4.421 \; inputv3 0.5
